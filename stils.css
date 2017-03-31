@@ -1,0 +1,61 @@
+body {
+	background: #EEEEEE;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: purple;
+	font-size: 32px;
+}
+
+#augsa {
+	border-bottom: 2px solid #CCCCCC;
+}
+#kreisa {
+	vertical-align: top;
+	display: inline-block;
+	width: 170px;
+}
+#laba {
+	vertical-align: top;
+	width: 800px;
+	display: inline-block;
+	padding-left: 10px;
+	border-left: 2px solid #CCCCCC;
+}
+
+img {
+	max-width: 800px;
+}
+
+
+#kreisa a {
+	color: blue;
+	text-decoration: none;
+	display: block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+}
+#kreisa a:hover {
+	background: #DDD;
+}
+#kreisa a:active {
+	color: purple;
+}
+
+
+td {
+	vertical-align: top;
+	border: 2px solid #ccc;
+	padding: 3px;
+}
+
+table tr:first-child {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: circle;
+	padding-left: 20px;
+}
